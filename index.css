@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(243 229 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaner {
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+}
+.list1{
+    width: 90%;
+    background-color: rgba(243, 229, 216, 0.511);;
+}
+.list2{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+.list3{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+.list3 span{
+font-weight: 500;
+}
+.list3 li::marker{
+ color: rgb(117 70 56);
+}
+.table table{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .contaner {
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+    .title{
+        padding: 0 3rem;
+    }
+    .list1{
+        width: 80%;
+        margin: 0 3rem;
+    }
+    .list2{
+        width: 60%;
+        padding-bottom: 2rem;
+        margin-left: 3rem;
+    }
+    .list3{
+        width: 80%;
+        padding-bottom: 2rem;
+        margin-left: 3rem;
+        }
+    .list3 span{
+    font-weight: 500;
+    }
+    .table{
+        width: 90%;
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+    }
+     .table table{
+    width: 100% !important;
+    margin-left: 0;
+    }
+     table tr{
+        width: 90% !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width:850px){
+    .contaner {
+        width: 80%;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+    .title{
+        padding: 0 3rem;
+    }
+    .list1{
+        width: 80%;
+        margin: 0 3rem;
+    }
+    .list2{
+        width: 60%;
+        padding-bottom: 2rem;
+        margin-left: 3rem;
+    }
+    .list3{
+        width: 80%;
+        padding-bottom: 2rem;
+        margin-left: 3rem;
+        }
+    .list3 span{
+    font-weight: 500;
+    }
+    .table{
+        width: 100%;
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+    }
+     .table table{
+    width: 100% !important;
+    margin-left: 0;
+    }
+     table tr{
+        width: 90% !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+    }
+}
